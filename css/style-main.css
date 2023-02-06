@@ -1,0 +1,253 @@
+.header-energetik{
+    background-image: url("/img/bg-main.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 900px;
+    position: relative!important;
+}
+body{
+    padding-top: 0;
+}
+.link-clip{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-top: 15px;
+}
+.link-clip span{
+    color: white;
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: 400;
+}
+.arr-top{
+    width: 60px;
+}
+.header__content, .header__logo{
+    padding: 0;
+}
+.container-h{
+    padding-left: 0;
+}
+.header-content-energetika h1{
+    color: black;
+    font-size: 100px;
+    line-height: 120%;
+    padding-top: 140px;
+    font-weight: 600;
+}
+.flag{
+    width: 160px;
+}
+.header-content-energetika-bottom-left h5{
+    color: white;
+    font-size: 80px;
+    padding-top: 40px;
+    font-weight: 600;
+}
+.header-content-energetika-bottom-left p{
+    color: white;
+    font-size: 22px;
+    line-height: 26px;
+    max-width: 351px;
+}
+.header-content-energetika-bottom-right{
+    position: relative;
+}
+.header-content-energetika-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.header-content-energetika-bottom-right img{
+    position: absolute;
+    left: -900px;
+}
+.trava{
+    margin-top: -115px;
+}
+.ellipse-btn-navigation-page{
+    background: white;
+}
+.btn-navigation-page-block{
+    height: 150px!important;
+}
+.btn-navigation-page-button{
+    color: white;
+    line-height: 27px;
+}
+.active-btn{
+    color: white;
+}
+.btn-navigation{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.gromofon-energetika{
+    position: relative;
+    z-index: 1;
+}
+.block-parent{
+    position: relative;
+    z-index: 11;
+}
+.eye{
+    width: 35px;
+}
+.fix__btn__img{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    justify-content: center;
+}
+.bag-img{
+    width: 40px;
+}
+.basket{
+    width: 60px;
+}
+.menu-toggle{
+    border: none;
+}
+.m-logo{
+    width: 50px;
+    margin-left: 20px;
+}
+.page-transition-overlay{
+    display: none;
+}
+
+.tooltiptext-sun{
+    margin-top: -170px;
+    margin-left: -215px;
+    width: 200px!important;
+    text-align: left!important;
+    padding: 10px!important;
+}
+.basket-parent{
+    right: 150px;
+    top: 30px;
+}
+#btn-language {
+    right: 87px;
+}
+.whale-container-left p{
+    font-size: 28px;
+    font-weight: 500;
+    color: white;
+    max-width: 780px;
+    padding-top: 140px;
+}
+.whale-container{
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-between;
+}
+.whale-container-right{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.whale-container{
+    padding-bottom: 75px;
+}
+.rain{
+    position: absolute;
+}
+
+html:not(.no-js) [data-aos^=fade][data-aos^=fade].aos-animate{
+    transform: translate(0);
+}
+html:not(.no-js) [data-aos=fade-down]{
+    transform: translateY(-200%);
+}
+html:not(.no-js) [data-aos=fade-up]{
+    transform: translateY(200%);
+}
+html:not(.no-js) [data-aos=fade-left]{
+    transform: translateX(200%);
+}
+html:not(.no-js) [data-aos=fade-right]{
+    transform: translateX(-200%);
+}
+html:not(.no-js) [data-aos=fade-down-left]{
+    transform: translate3d(500px,-500px,100px);
+}
+.sun-parent{
+    position: relative;
+}
+.ellipse-sun{
+    position: absolute;
+    right: 0;
+    width: 200px;
+    left: -400px!important;
+    top: -260px;
+}
+.sun{
+    top: -230px;
+    left: -373px!important;
+    cursor: pointer;
+}
+.el-sun-parent{
+    color: white;
+    font-size: 20px;
+}
+.tooltip-sun{
+    position: fixed;
+    z-index: 99999;
+}
+.el-sun-parent p{
+    position: relative;
+    top: -200px;
+    color: white;
+    left: -360px;
+    z-index: 9999;
+    font-size: 28px;
+    line-height: 30px;
+}
+.whale1{
+    position: relative;
+    width: 580px;
+    margin-left: -150px;
+}
+.whale2{
+    position: relative;
+    left: 100px;
+    width: 610px;
+}
+.rain{
+    position: absolute;
+    margin-top: 270px;
+    z-index: 9999;
+    right: 0;
+    margin-left: -70px;
+    width: 780px;
+    left: 0;
+}
+.raz {
+    border: 1px solid red;
+}
+.sticky {
+    position: sticky;
+    top: -2em;
+    min-height: 2em;
+    background: lightpink;
+}
+.green-container-left p {
+    font-size: 25px;
+    color: white;
+    max-width: 660px;
+}
+.green-container{
+    height: 600px;
+    overflow-y: scroll;
+    display: flex;
+}
+.green-container-left{
+    position: fixed;
+}

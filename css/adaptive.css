@@ -1,0 +1,78 @@
+@media screen and (max-width: 1800px){
+    .uber-right {
+        right: -140px;
+    }
+}
+@media screen and (max-width: 1700px){
+    .uber-right {
+        right: -140px;
+    }
+}
+    @media screen and (max-width: 1600px){
+        .professor-formula-img{
+            margin-right: 20px;
+        }
+        .section-formula-container{
+            gap: 10px;
+        }
+        .for-padding{
+            padding-left: 50px;
+        }
+        .uber-right{
+        right: -110px;
+    }
+    .wrapper-btn {
+        gap: 32px;
+    }
+
+    }
+@media screen and (max-width: 1470px){
+    .uber-right {
+        right: -70px;
+    }
+    .sun-animation{
+        margin-left: 100px;
+    }
+    .animation-blocks{
+        margin-top: -220px;
+    }
+    .bird {
+        width: 90px!important;
+    }
+    .bird1 {
+        top: -125px;
+        left: -100px;
+    }
+    .bird2 {
+        left: -200px;
+    }
+}
+@media screen and (max-width: 1425px){
+    .container-checkbox {
+        font-size: 21px;
+    }
+    .uber-right {
+        right: -20px;
+    }
+}
+@media screen and (max-width: 1400px){
+    .video-formula{
+        width: 400px!important;
+    }
+    .wrapper-btn {
+        gap: 18px!important;
+    }
+    .social-container {
+        width: 45%;
+    }
+    }
+@media screen and (max-width: 1350px){
+    .runner{
+        height: 250px!important;
+    }
+}
+@media screen and (max-width: 1250px){
+    .social-container {
+        font-size: 16px;
+    }
+}
